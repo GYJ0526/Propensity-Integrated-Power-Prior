@@ -21,7 +21,7 @@ PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 
 	seed: Indicates the initial seed to generate sets of seed numbers in generating data and running MCMC. Optional.
 
 # Outputs for PS_BBPPP
-This function automatically produces the following outputs: 
+	This function automatically produces the following outputs: 
 	mean_TE: Mean treatment effect estimate across r repetition.
 	bias: Mean bias of the treatment effect estimates.
 	abs_bias: Mean absolute bias of the treatment effect estimates.
