@@ -1,9 +1,8 @@
-# Propensity-Integrated-Power-Prior
+# README Document for PS_BBPPP
 
-README Document for PS_BBPPP
-The R script for PS_BBPPP (Propensity Score–Based Borrowing-by-Parts Power Prior) can be stored in a folder named PS_BBPPP. The method can be run by sourcing the script and setting the required input parameters in the R environment:
+# The R script for PS_BBPPP (Propensity Score–Based Borrowing-by-Parts Power Prior) can be stored in a folder named PS_BBPPP. The method can be run by sourcing the script and setting the required input parameters in the R environment:
 PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 = , var_x =, var_x0 =, K =, iter = , B = , seed =)
-Inputs for PS_BBPPP
+# Inputs for PS_BBPPP
 	rep: Number of simulation replications to run. Required.
 	n: Sample size of the current study. Required.
 	p: Number of covariates (excluding the intercept). Required.
@@ -19,7 +18,7 @@ Inputs for PS_BBPPP
 	iter: Number of MCMC iterations per stratum. Required.
 	B: Number of burn-in samples to discard from each MCMC chain. Required.
 	seed: Indicates the initial seed to generate sets of seed numbers in generating data and running MCMC. Optional.
-Outputs for PS_BBPPP
+# Outputs for PS_BBPPP
 This function automatically produces the following outputs: 
 	mean_TE: Mean treatment effect estimate across r repetition.
 	bias: Mean bias of the treatment effect estimates.
