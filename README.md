@@ -1,7 +1,8 @@
 # README Document for PS_BBPPP
 
 ## The R script for PS_BBPPP (Propensity Score–Based Borrowing-by-Parts Power Prior) can be stored in a folder named PS_BBPPP. The method can be run by sourcing the script and setting the required input parameters in the R environment:
-PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 = , var_x =, var_x0 =, K =, iter = , B = , seed =)
+
+*PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 = , var_x =, var_x0 =, K =, iter = , B = , seed =)*
 
 # Inputs for PS_BBPPP
 	rep: Number of simulation replications to run. Required.
