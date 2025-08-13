@@ -1,7 +1,8 @@
 # README Document for PS_BBPPP
 
-# The R script for PS_BBPPP (Propensity Score–Based Borrowing-by-Parts Power Prior) can be stored in a folder named PS_BBPPP. The method can be run by sourcing the script and setting the required input parameters in the R environment:
+## The R script for PS_BBPPP (Propensity Score–Based Borrowing-by-Parts Power Prior) can be stored in a folder named PS_BBPPP. The method can be run by sourcing the script and setting the required input parameters in the R environment:
 PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 = , var_x =, var_x0 =, K =, iter = , B = , seed =)
+
 # Inputs for PS_BBPPP
 	rep: Number of simulation replications to run. Required.
 	n: Sample size of the current study. Required.
@@ -18,6 +19,7 @@ PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 
 	iter: Number of MCMC iterations per stratum. Required.
 	B: Number of burn-in samples to discard from each MCMC chain. Required.
 	seed: Indicates the initial seed to generate sets of seed numbers in generating data and running MCMC. Optional.
+
 # Outputs for PS_BBPPP
 This function automatically produces the following outputs: 
 	mean_TE: Mean treatment effect estimate across r repetition.
@@ -29,5 +31,5 @@ This function automatically produces the following outputs:
 	mean_CI_width: Mean width of the 95% credible interval.
 	used_hist_sub: Mean number of historical subjects retained after trimming.
 
-Running Time for PS_BBPPP
+# Running Time for PS_BBPPP
 It takes approximately 14 seconds to complete a single repetition (rep=1) with 5,000 MCMC iterations when n=100, n_0=1000, p=4, and A=30.
