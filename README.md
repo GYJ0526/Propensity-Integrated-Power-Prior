@@ -35,4 +35,4 @@ PS_BBPPP(rep = , n = , p = , n0 = , b = , A = , var_y = , var_y0 = , mu = , mu0 
 It takes approximately 14 seconds to complete a single repetition (rep=1) with 5,000 MCMC iterations when n=100, n_0=1000, p=4, and A=30.
 
 # Reference
-Das A, Gwon Y, and Bonangelino P (2025) "Propensity score-based borrowing-by-parts power prior for augmenting control arm in clinical trials: A two-stage approach" under revision in Statistics in Biosciences
+Das A, **Gwon Y**, and Bonangelino P (2025) "Propensity score-based borrowing-by-parts power prior for augmenting control arm in clinical trials: A two-stage approach" under revision in Statistics in Biosciences
